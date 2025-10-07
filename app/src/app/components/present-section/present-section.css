@@ -1,3 +1,19 @@
-.present_section{
+
+.div_content{
+    display: flex;
+    
+
+}
+
+.right_side{
+    background-color: var(--secondary-color);
+    width: 50%;
+   
+}
+
+.left_side{
     background-color: var(--primary-color);
+    width: 50%;
+    color: white;
+    padding: 5rem;
 }
