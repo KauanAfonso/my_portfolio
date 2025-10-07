@@ -1,0 +1,59 @@
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 0 2rem;
+  height: 60px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo .dot {
+  color: var(--secondary-color);
+}
+
+.nav_menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav_menu a {
+  color: var(--text-color);
+  text-decoration: none;
+  position: relative;
+  font-size: 0.95rem;
+}
+
+.nav_menu a:hover,
+.nav_menu a.active {
+  color: var(--highlight-color);
+}
+
+.nav_menu a.active::after {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: var(--highlight-color);
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+
+.contact_button button {
+      
+  padding: .8rem !important;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
